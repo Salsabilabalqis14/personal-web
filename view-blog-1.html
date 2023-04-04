@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Adding CSS to HTML Documents</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="container">
+        <nav id="navbar">
+            <a href="index.html" id="logo">
+                <h1>SalsaB.</h1>
+            </a>
+            <div id="menu">
+                <a href="index.html">Home</a>
+                <a href="project.html">Projects</a>
+                <a href="blog.html">Blog</a>
+                <a href="about.html">About</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container container-view-blog">
+        <section class="view-blog">
+            <img src="assets/view-blog-1.png" alt="" class="poster-blog">
+            <div class="view-blog-top">
+                <h1>Adding CSS to HTML Documents</h1>
+                <div class="blog-info">
+                    <p>14 Maret 2023</p>
+                    <p>10 min read</p>
+                </div>
+            </div>
+            <div class="view-blog-content">
+                <p>CSS (Cascading Style Sheets) can be added to an HTML document in three ways:</p>
+                <div class="list-content-blog">
+                    <h3>1. Inline CSS</h3>
+                    <p>Inline CSS is added directly to an HTML element using the style attribute. This is the least recommended way of adding CSS to an HTML document as it can clutter the HTML code and make it difficult to maintain. <br> <br> Example:</p>
+                    <img src="assets/code1.png" alt="code 1" style="width: 875px; height: 184px;">
+                </div>
+                <div class="list-content-blog">
+                    <h3>2. Internal CSS</h3>
+                    <p>Internal CSS is added to the head section of an HTML document using the &lt;style&gt; element. This method allows you to define CSS styles that will be applied to all elements on a single page. <br> <br> Example:</p>
+                    <img src="assets/code2.png" alt="code 2" style="width: 641px; height: 421px;">
+                </div>
+                <div class="list-content-blog">
+                    <h3>3. External CSS</h3>
+                    <p>External CSS is stored in a separate file with a .css extension and linked to the HTML document using the &lt;link&gt; element in the head section. This method is the most recommended way of adding CSS to an HTML document as it separates the styling from the content and makes it easier to maintain. <br> <br> Example:</p>
+                    <img src="assets/code3.png" alt="code 3" style="width: 769px; height: 316px;">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container" id="container-footer">
+        <section id="footer">
+            <div id="title-footer">
+                <h2>Interested In Working Together With Me?</h2>
+                <p>I will surely show you how i turn your idea into the amazing work</p>
+            </div>
+            <div id="contact-me">
+                <div class="card-contact">
+                    <h4>Follow Me</h4>
+                    <div class="item-contact" id="links">
+                        <a href="https://www.linkedin.com/in/salsabila-balqis-a35a73258"><i class='bx bxl-linkedin' style='color:#437bd5'></i></a>
+                        <a href="https://github.com/Salsabilabalqis14/"><i class='bx bxl-github' style='color:#437bd5'></i></a>
+                        <a href="https://www.instagram.com/sabilqis_14/"><i class='bx bxl-instagram' style='color:#437bd5'></i></a>
+                    </div>
+                </div>
+                <div class="card-contact">
+                    <h4>Call</h4>
+                    <div class="item-contact">
+                        <i class='bx bxs-phone-call' style='color:#437bd5'  ></i>
+                        <p>+628 1272 0400 386</p>
+                    </div>
+                </div>
+                <div class="card-contact">
+                    <h4>Mail</h4>
+                    <div class="item-contact">
+                        <i class='bx bxs-envelope' style='color:#437bd5' ></i>
+                        <p>salsabilabalqis1012@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+        
+    <!-- Copy Rights -->
+    <div id="copy-rights">
+        <div id="line"></div>
+        <p class="container" id="copy-rights-txt">© 2023 - SalsaB. All Rights Reserved.</p>
+    </div>
+    
+</body>
+</html>
