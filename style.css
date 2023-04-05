@@ -9,6 +9,7 @@
 
 a{
     text-decoration: none;
+    color: #000000;
 }
 
 .container{
@@ -27,8 +28,29 @@ a{
     color: #FFFF;
 }
 
+.btn-primary:hover{
+    background: #2557A7;
+    transition: all 0.3s;
+}
+
 .btn-secondary{
     border: 2px solid #437BD5;
+}
+
+.btn-secondary:hover{
+    background-color: #437BD5;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+
+.container-navbar{
+	position: sticky;
+	top: 0;
+    background: #FFFFFF;
+}
+
+.container-navbar.scrolled-down{
+    box-shadow: 0px 4px 15px rgba(67, 123, 213, 0.1);
 }
 
 #navbar{
@@ -53,7 +75,15 @@ a{
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    color: #000000;
+}
+
+#menu a:hover{
+    color: #437BD5;
+    transition: all 0.3s;
+}
+
+#active{
+    color: #437BD5;
 }
 
 #hero{
